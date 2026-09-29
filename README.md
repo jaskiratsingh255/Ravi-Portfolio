@@ -10,6 +10,12 @@ A minimalist, human-centered personal portfolio website crafted for **Ravi**, an
 - **Responsive**: Fluid layout adapting seamlessly across mobile, tablet, and widescreen desktop displays.
 - **Interactive Micro-features**: One-click clipboard email copy with visual confirmation.
 
+## 💻 Featured Projects
+1. **Jarvis — AI Virtual Desktop Assistant**: Intelligent Python voice assistant automating system tasks, web searches, and application control.
+2. **Data Insights & SQL Analytics System**: Relational database engine utilizing optimized SQL queries, joins, and indexing with Python data extraction.
+3. **AlgoVault — Algorithmic Solutions Hub**: Repository of algorithmic solutions (graphs, DP, trees) with space-time complexity analysis.
+4. **Minimalist Responsive Web Interface**: High-performance UI built with modern HTML5, pure CSS3 (Grid/Flexbox), and fluid scroll physics.
+
 ## 🛠️ Tech Stack
 - **HTML5**: Semantic, accessible markup.
 - **CSS3**: Custom design tokens, Flexbox, Grid, keyframe animations, glassmorphism, responsive media queries.
