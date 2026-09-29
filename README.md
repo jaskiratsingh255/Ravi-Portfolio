@@ -37,6 +37,17 @@ To run this site locally:
    ```
    Then open `http://localhost:8000` in your browser.
 
+## 🚀 Deploying to Vercel (Free & Instant)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjaskiratsingh255%2FRavi-Portfolio)
+
+1. Go to [vercel.com](https://vercel.com) and log in with your GitHub account.
+2. Click **"Add New..."** > **"Project"**.
+3. Select the repository **`jaskiratsingh255/Ravi-Portfolio`** and click **"Import"**.
+4. Leave all build settings as default (Framework Preset: *Other*, Root Directory: `./`).
+5. Click **"Deploy"**!
+Your portfolio will be live worldwide with a free `https://<your-project>.vercel.app` URL and automatic updates on every git push!
+
 ## 📬 Contact & Profiles
 - **Email**: [ravirajput7653@gmail.com](mailto:ravirajput7653@gmail.com)
 - **GitHub**: [ravirajput23323-wq](https://github.com/ravirajput23323-wq)
