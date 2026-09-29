@@ -31,6 +31,7 @@ To run this site locally:
    ```
    Then open `http://localhost:8000` in your browser.
 
-## 📬 Profiles & Links
+## 📬 Contact & Profiles
+- **Email**: [ravirajput7653@gmail.com](mailto:ravirajput7653@gmail.com)
 - **GitHub**: [ravirajput23323-wq](https://github.com/ravirajput23323-wq)
 - **LeetCode**: [LeetCode Account](https://leetcode.com/accounts/login/)
