@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ravi — Developer &amp; Problem Solver | BCA Student</title>
+  <meta name="description" content="Personal portfolio of Ravi — BCA student and developer specializing in Python, SQL, HTML, CSS, and thoughtful problem solving.">
+
+  <!-- Google Fonts: Plus Jakarta Sans for clean, warm human typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ambient Light Pastel Background Orbs -->
+  <div class="ambient-background" aria-hidden="true">
+    <div class="ambient-orb orb-cyan"></div>
+    <div class="ambient-orb orb-pink"></div>
+    <div class="ambient-orb orb-blue"></div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <header class="site-header" id="navbar">
+    <nav class="nav-container">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-avatar">R</span>
+        <span class="brand-name">Ravi</span>
+        <span class="status-indicator" title="Open to opportunities &amp; learning">
+          <span class="status-dot"></span>
+        </span>
+      </a>
+
+      <!-- Desktop Menu Links -->
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#approach" class="nav-link">Approach</a></li>
+        <li><a href="#contact" class="nav-link nav-btn-cta">Say Hello</a></li>
+      </ul>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation Menu" aria-expanded="false">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+    </nav>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-drawer" id="mobileDrawer">
+      <ul class="mobile-nav-links">
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#skills" class="mobile-link">Skills</a></li>
+        <li><a href="#projects" class="mobile-link">Projects</a></li>
+        <li><a href="#approach" class="mobile-link">Approach</a></li>
+        <li><a href="#contact" class="mobile-link mobile-btn-cta">Say Hello</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        
+        <div class="hero-content">
+          <div class="hero-badge reveal-scroll">
+            <span class="badge-sparkle">✦</span>
+            <span>BCA Student &amp; Developer</span>
+          </div>
+
+          <h1 class="hero-title reveal-scroll" style="--delay: 0.1s">
+            Hi, I’m <span class="gradient-text">Ravi</span>.<br>
+            I build software with logic, care & clarity.
+          </h1>
+
+          <p class="hero-description reveal-scroll" style="--delay: 0.2s">
+            I’m a developer currently pursuing my <strong>BCA (Bachelor of Computer Applications)</strong>. Grounded in 
+            <strong>Python</strong>, <strong>SQL</strong>, and <strong>modern web standards</strong>, 
+            I bridge computational logic with clean, human-centered experiences.
+          </p>
+
+          <div class="hero-actions reveal-scroll" style="--delay: 0.3s">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Get in Touch</span>
+            </a>
+          </div>
+
+          <div class="hero-tags reveal-scroll" style="--delay: 0.4s">
+            <span class="tag-pill">🎓 BCA Student</span>
+            <span class="tag-pill">🐍 Python</span>
+            <span class="tag-pill">🗄️ SQL</span>
+            <span class="tag-pill">🎨 HTML &amp; CSS</span>
+            <span class="tag-pill">💡 Problem Solving</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal-scroll" style="--delay: 0.25s">
+          <div class="visual-card">
+            <div class="window-header">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+              <span class="window-title">philosophy.py</span>
+            </div>
+            <pre class="code-snippet"><code><span class="code-comment"># The human behind the code</span>
+<span class="code-keyword">class</span> <span class="code-class">Developer</span>:
+    <span class="code-keyword">def</span> <span class="code-func">__init__</span>(self):
+        self.name = <span class="code-string">"Ravi"</span>
+        self.education = <span class="code-string">"BCA (Computer Applications)"</span>
+        self.skills = [<span class="code-string">"Python"</span>, <span class="code-string">"SQL"</span>, <span class="code-string">"HTML/CSS"</span>]
+        self.mindset = <span class="code-string">"Solve root causes, not symptoms"</span>
+
+    <span class="code-keyword">def</span> <span class="code-func">create</span>(self, challenge):
+        <span class="code-keyword">return</span> simplify(challenge).with_care()</code></pre>
+            <div class="visual-card-footer">
+              <span class="footer-badge">✦ Open to internships &amp; opportunities</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+        <span class="scroll-cue-text">Scroll to explore</span>
+        <div class="mouse-icon">
+          <div class="mouse-wheel"></div>
+        </div>
+      </a>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        
+        <div class="section-header reveal-scroll">
+          <span class="section-eyebrow">01 / About Me</span>
+          <h2 class="section-title">A human approach to code.</h2>
+          <p class="section-subtitle">Writing code that solves problems today and stays maintainable tomorrow.</p>
+        </div>
+
+        <div class="about-grid">
+          
+          <div class="about-narrative reveal-scroll" style="--delay: 0.1s">
+            <p class="lead-text">
+              I’m currently pursuing my <strong>Bachelor of Computer Applications (BCA)</strong>, uniting core computer science theory with hands-on software development and real-world problem solving.
+            </p>
+            <p>
+              I believe great software isn't just about syntax—it's about understanding how systems interact, communicating ideas clearly, and breaking down complexity into something straightforward and dependable.
+            </p>
+            <p>
+              My stack centers around <strong>Python</strong> for backend logic and automation, <strong>SQL</strong> for relational databases and insights, and <strong>HTML &amp; CSS</strong> for crafting clean, accessible user interfaces. I love building practical projects and continually expanding my engineering toolkit.
+            </p>
+
+            <div class="about-stats">
+              <div class="stat-card">
+                <span class="stat-number">BCA</span>
+                <span class="stat-label">Undergraduate Degree</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Commitment to Clean Logic</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-cards-col">
+            <div class="human-feature-card reveal-scroll" style="--delay: 0.15s">
+              <div class="feature-icon icon-cyan">🧩</div>
+              <div class="feature-text">
+                <h3>Problem Solving First</h3>
+                <p>I don't just jump into code. I dissect requirements, consider constraints, and design logical solutions before typing.</p>
+              </div>
+            </div>
+
+            <div class="human-feature-card reveal-scroll" style="--delay: 0.25s">
+              <div class="feature-icon icon-pink">✨</div>
+              <div class="feature-text">
+                <h3>Simplicity &amp; Open Space</h3>
+                <p>Clutter leads to bugs. I champion clean structures, deliberate spacing, and understandable abstractions.</p>
+              </div>
+            </div>
+
+            <div class="human-feature-card reveal-scroll" style="--delay: 0.35s">
+              <div class="feature-icon icon-blue">🌱</div>
+              <div class="feature-text">
+                <h3>Continuous Evolution</h3>
+                <p>Pairing academic BCA foundations with active project development, modern libraries, and emerging tech.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        
+        <div class="section-header reveal-scroll">
+          <span class="section-eyebrow">02 / Toolbox</span>
+          <h2 class="section-title">Skills &amp; Capabilities</h2>
+          <p class="section-subtitle">The technologies and disciplines I use to craft dependable solutions.</p>
+        </div>
+
+        <div class="skills-grid">
+          
+          <!-- Skill Category 1 -->
+          <div class="skill-category-card reveal-scroll" style="--delay: 0.1s">
+            <div class="category-header">
+              <span class="category-pill pill-cyan">Core Languages</span>
+              <h3 class="category-title">Programming &amp; Data</h3>
+            </div>
+            
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Python</span>
+                  <span class="skill-badge">Primary Language</span>
+                </div>
+                <p class="skill-desc">Object-oriented programming, data scripts, automation, backend logic, and clean algorithmic code.</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">SQL</span>
+                  <span class="skill-badge">Databases</span>
+                </div>
+                <p class="skill-desc">Relational schema design, complex queries, joins, filtering, and efficient data retrieval.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Category 2 -->
+          <div class="skill-category-card reveal-scroll" style="--delay: 0.2s">
+            <div class="category-header">
+              <span class="category-pill pill-pink">Front-End</span>
+              <h3 class="category-title">Web &amp; Interface Design</h3>
+            </div>
+            
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">HTML5</span>
+                  <span class="skill-badge">Semantic</span>
+                </div>
+                <p class="skill-desc">Accessible, semantic structure, SEO best practices, and clean document outlines.</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">CSS3 &amp; Modern Layouts</span>
+                  <span class="skill-badge">Responsive</span>
+                </div>
+                <p class="skill-desc">Flexbox, CSS Grid, custom properties, fluid typography, subtle micro-animations, and mobile-first design.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Category 3 -->
+          <div class="skill-category-card reveal-scroll" style="--delay: 0.3s">
+            <div class="category-header">
+              <span class="category-pill pill-blue">Methodology</span>
+              <h3 class="category-title">Problem Solving &amp; Practices</h3>
+            </div>
+            
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Algorithmic Thinking</span>
+                  <span class="skill-badge">Logic</span>
+                </div>
+                <p class="skill-desc">Complexity awareness, data structures, and breaking complex issues into modular sub-tasks.</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Engineering Practices</span>
+                  <span class="skill-badge">Workflow</span>
+                </div>
+                <p class="skill-desc">Git version control, structured debugging, clean naming conventions, and iterative development.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        
+        <div class="section-header reveal-scroll">
+          <span class="section-eyebrow">03 / Selected Works</span>
+          <h2 class="section-title">Projects &amp; Experiments</h2>
+          <p class="section-subtitle">A showcase of things built with code. Ready to be linked to your repositories.</p>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Project Card 1 -->
+          <article class="project-card reveal-scroll" style="--delay: 0.1s">
+            <div class="project-banner banner-cyan">
+              <div class="project-preview-mockup">
+                <div class="mockup-bar">
+                  <span class="mock-dot"></span>
+                  <span class="mock-dot"></span>
+                  <span class="mock-dot"></span>
+                  <span class="mock-url">data-pipeline.py</span>
+                </div>
+                <div class="mockup-content">
+                  <div class="mockup-line w-80"></div>
+                  <div class="mockup-line w-60"></div>
+                  <div class="mockup-line w-40"></div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="badge-tag">Python</span>
+                <span class="badge-tag">SQL</span>
+                <span class="badge-tag">Data Logic</span>
+              </div>
+              <h3 class="project-title">Data Insights &amp; SQL Query Engine</h3>
+              <p class="project-description">
+                A Python-powered data processing utility designed to extract, transform, and analyze datasets with optimized SQL queries and clear reporting summaries.
+              </p>
+              <div class="project-actions">
+                <a href="https://github.com/jaskiratsingh255/Ravi-Portfolio" class="project-link" target="_blank" rel="noopener noreferrer">
+                  <span>View GitHub</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+                <a href="#" class="project-link link-ghost" target="_blank" rel="noopener noreferrer">
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 2 -->
+          <article class="project-card reveal-scroll" style="--delay: 0.2s">
+            <div class="project-banner banner-pink">
+              <div class="project-preview-mockup">
+                <div class="mockup-bar">
+                  <span class="mock-dot"></span>
+                  <span class="mock-dot"></span>
+                  <span class="mock-dot"></span>
+                  <span class="mock-url">portfolio-ui.html</span>
+                </div>
+                <div class="mockup-content">
+                  <div class="mockup-line w-70"></div>
+                  <div class="mockup-line w-50"></div>
+                  <div class="mockup-line w-65"></div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="badge-tag">HTML5</span>
+                <span class="badge-tag">CSS3</span>
+                <span class="badge-tag">Responsive UI</span>
+              </div>
+              <h3 class="project-title">Minimalist Human-Centric Interface</h3>
+              <p class="project-description">
+                A high-performance personal portfolio built from scratch with pure HTML, CSS, and vanilla JavaScript. Features soft pastel aesthetics, fluid scroll physics, and zero bloat.
+              </p>
+              <div class="project-actions">
+                <a href="https://github.com/jaskiratsingh255/Ravi-Portfolio" class="project-link" target="_blank" rel="noopener noreferrer">
+                  <span>View GitHub</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+                <a href="#" class="project-link link-ghost" target="_blank" rel="noopener noreferrer">
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 3 -->
+          <article class="project-card reveal-scroll" style="--delay: 0.3s">
+            <div class="project-banner banner-blue">
+              <div class="project-preview-mockup">
+                <div class="mockup-bar">
+                  <span class="mock-dot"></span>
+                  <span class="mock-dot"></span>
+                  <span class="mock-dot"></span>
+                  <span class="mock-url">algorithms.py</span>
+                </div>
+                <div class="mockup-content">
+                  <div class="mockup-line w-60"></div>
+                  <div class="mockup-line w-75"></div>
+                  <div class="mockup-line w-45"></div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="badge-tag">Python</span>
+                <span class="badge-tag">Algorithms</span>
+                <span class="badge-tag">Problem Solving</span>
+              </div>
+              <h3 class="project-title">Algorithmic Problem Solutions &amp; Automation</h3>
+              <p class="project-description">
+                A curated repository of algorithmic challenges, clean data structure implementations, and automation scripts designed for efficiency and clarity.
+              </p>
+              <div class="project-actions">
+                <a href="https://github.com/jaskiratsingh255/Ravi-Portfolio" class="project-link" target="_blank" rel="noopener noreferrer">
+                  <span>View GitHub</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+                <a href="#" class="project-link link-ghost" target="_blank" rel="noopener noreferrer">
+                  <span>Read Overview</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Note for adding more projects -->
+        <div class="projects-footer reveal-scroll">
+          <p class="projects-note">
+            💡 <em>More projects are continually being crafted and documented. You can plug your live links right into these cards!</em>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- APPROACH / PROBLEM SOLVING SECTION -->
+    <section class="section approach-section" id="approach">
+      <div class="container">
+        
+        <div class="section-header reveal-scroll">
+          <span class="section-eyebrow">04 / Way of Working</span>
+          <h2 class="section-title">How I approach challenges</h2>
+          <p class="section-subtitle">A deliberate, 3-stage process from vague question to reliable answer.</p>
+        </div>
+
+        <div class="process-grid">
+          
+          <div class="process-card reveal-scroll" style="--delay: 0.1s">
+            <div class="process-step-num">01</div>
+            <h3 class="process-title">Understand &amp; Deconstruct</h3>
+            <p class="process-desc">
+              Before jumping into code, I define the core objective, understand constraints, and break the puzzle down into smaller, digestible components.
+            </p>
+          </div>
+
+          <div class="process-card reveal-scroll" style="--delay: 0.2s">
+            <div class="process-step-num">02</div>
+            <h3 class="process-title">Architect &amp; Implement</h3>
+            <p class="process-desc">
+              I pick the right data structure and cleanest paradigm. Write readable, intentional Python or SQL code that tells a clear story.
+            </p>
+          </div>
+
+          <div class="process-card reveal-scroll" style="--delay: 0.3s">
+            <div class="process-step-num">03</div>
+            <h3 class="process-title">Refine &amp; Polish</h3>
+            <p class="process-desc">
+              Test edge cases, eliminate redundant complexity, optimize queries, and ensure the resulting solution is robust, pleasant, and easy to maintain.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        
+        <div class="contact-card reveal-scroll">
+          <div class="contact-header">
+            <span class="section-eyebrow">05 / Let's Connect</span>
+            <h2 class="contact-title">Have a project, role, or idea?</h2>
+            <p class="contact-subtitle">
+              Whether you want to collaborate, discuss an internship or opportunity, or simply talk tech and problem solving, I’d love to hear from you.
+            </p>
+          </div>
+
+          <div class="contact-channels">
+            
+            <!-- Email Box with Copy Feature -->
+            <div class="channel-card">
+              <div class="channel-icon">✉️</div>
+              <div class="channel-info">
+                <span class="channel-label">Email Address</span>
+                <span class="channel-value" id="emailText">ravi.developer@example.com</span>
+              </div>
+              <div class="channel-actions">
+                <a href="mailto:ravi.developer@example.com" class="btn btn-sm btn-primary">Send Email</a>
+                <button class="btn btn-sm btn-secondary" id="copyEmailBtn" aria-label="Copy email address">
+                  <span id="copyBtnText">Copy</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Social Links: GitHub & LinkedIn -->
+            <div class="social-links-grid">
+              
+              <!-- LinkedIn Placeholder -->
+              <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" class="social-card">
+                <div class="social-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </div>
+                <div class="social-text">
+                  <span class="social-title">LinkedIn</span>
+                  <span class="social-sub">Connect professionally</span>
+                </div>
+                <span class="social-arrow">↗</span>
+              </a>
+
+              <!-- GitHub Repo Link -->
+              <a href="https://github.com/jaskiratsingh255/Ravi-Portfolio" target="_blank" rel="noopener noreferrer" class="social-card">
+                <div class="social-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                </div>
+                <div class="social-text">
+                  <span class="social-title">GitHub</span>
+                  <span class="social-sub">Ravi-Portfolio Repository</span>
+                </div>
+                <span class="social-arrow">↗</span>
+              </a>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <p class="footer-text">
+          Designed &amp; handcrafted with care by <strong>Ravi</strong>.
+        </p>
+        <p class="footer-sub">
+          Minimalist, light-themed, and responsive. Powered by HTML, CSS &amp; JavaScript.
+        </p>
+      </div>
+
+      <div class="footer-right">
+        <a href="#hero" class="back-to-top" id="backToTopBtn" aria-label="Back to top of page">
+          <span>Back to top</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
