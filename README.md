@@ -31,6 +31,6 @@ To run this site locally:
    ```
    Then open `http://localhost:8000` in your browser.
 
-## 📬 Contact
-- **GitHub**: [jaskiratsingh255/Ravi-Portfolio](https://github.com/jaskiratsingh255/Ravi-Portfolio)
-- **LinkedIn**: [Connect on LinkedIn](https://linkedin.com)
+## 📬 Profiles & Links
+- **GitHub**: [ravirajput23323-wq](https://github.com/ravirajput23323-wq)
+- **LeetCode**: [LeetCode Account](https://leetcode.com/accounts/login/)

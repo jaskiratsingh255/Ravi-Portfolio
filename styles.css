@@ -1160,6 +1160,16 @@ img, svg {
   justify-content: center;
   color: var(--text-main);
   flex-shrink: 0;
+  transition: var(--transition);
+}
+
+.icon-leetcode {
+  color: #D97706;
+  background: #FEF3C7;
+}
+
+.social-card:hover .icon-leetcode {
+  background: #FDE68A;
 }
 
 .social-text {
