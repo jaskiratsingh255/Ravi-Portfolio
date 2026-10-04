@@ -11,10 +11,10 @@ A minimalist, human-centered personal portfolio website crafted for **Ravi**, an
 - **Interactive Micro-features**: One-click clipboard email copy with visual confirmation.
 
 ## 💻 Featured Projects
-1. **Jarvis — AI Virtual Desktop Assistant**: Intelligent Python voice assistant automating system tasks, web searches, and application control.
-2. **Data Insights & SQL Analytics System**: Relational database engine utilizing optimized SQL queries, joins, and indexing with Python data extraction.
-3. **AlgoVault — Algorithmic Solutions Hub**: Repository of algorithmic solutions (graphs, DP, trees) with space-time complexity analysis.
-4. **Minimalist Responsive Web Interface**: High-performance UI built with modern HTML5, pure CSS3 (Grid/Flexbox), and fluid scroll physics.
+1. **Jarvis — AI Virtual Voice & Desktop Assistant**: Python voice assistant automating system tasks, web queries, and application control via speech commands.
+2. **Filters — AR Hand-Tracking Portal**: Real-time augmented reality portal using MediaPipe & OpenCV with 8 live shader filters and gesture transitions.
+3. **2D Pixel Art Desktop Pet Companion**: Interactive frameless desktop companion with 48 animated pixel-art frames, treat feeding, and Gemini AI chat.
+4. **Aethelgard: Living 2D Pixel Sanctuary**: Atmospheric HTML5 Canvas simulation with dynamic lighting cycles, particle systems, and ambient soundscapes.
 
 ## 🛠️ Tech Stack
 - **HTML5**: Semantic, accessible markup.
