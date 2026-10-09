@@ -1,6 +1,6 @@
-# Ravi — Personal Portfolio
+# Jaskirat Singh — Personal Portfolio
 
-A minimalist, human-centered personal portfolio website crafted for **Ravi**, an undergraduate student pursuing **BCA (Bachelor of Computer Applications)** and software developer skilled in **Python**, **SQL**, **HTML**, **CSS**, and **Problem Solving**.
+A minimalist, human-centered personal portfolio website crafted for **Jaskirat Singh**, an engineering undergraduate pursuing **B.Tech in Computer Science & Engineering (CSE)** and developer specializing in **Python**, **Computer Vision (OpenCV & MediaPipe)**, **SQL**, **HTML5 & CSS3 Canvas**, and **Problem Solving**.
 
 ## ✨ Features
 - **Minimalist Aesthetic & Light Palette**: Clean off-white canvas paired with soft pastel cyan, blush pink, and light sky blue.
@@ -8,18 +8,18 @@ A minimalist, human-centered personal portfolio website crafted for **Ravi**, an
 - **Silky Scroll Animations**: Native `IntersectionObserver` scroll reveals without bloated dependencies.
 - **Frosted Glass Navigation**: Sticky navbar with section scrollspy, live opportunity indicator, and mobile drawer.
 - **Responsive**: Fluid layout adapting seamlessly across mobile, tablet, and widescreen desktop displays.
-- **Interactive Micro-features**: One-click clipboard email copy with visual confirmation.
+- **Interactive Micro-features**: One-click clipboard email copy and direct phone/WhatsApp actions.
 
 ## 💻 Featured Projects
-1. **Jarvis — AI Virtual Voice & Desktop Assistant**: Python voice assistant automating system tasks, web queries, and application control via speech commands.
-2. **Filters — AR Hand-Tracking Portal**: Real-time augmented reality portal using MediaPipe & OpenCV with 8 live shader filters and gesture transitions.
-3. **2D Pixel Art Desktop Pet Companion**: Interactive frameless desktop companion with 48 animated pixel-art frames, treat feeding, and Gemini AI chat.
-4. **Aethelgard: Living 2D Pixel Sanctuary**: Atmospheric HTML5 Canvas simulation with dynamic lighting cycles, particle systems, and ambient soundscapes.
+1. **Filters — AR Hand-Tracking Portal**: Real-time augmented reality portal using MediaPipe & OpenCV with 8 live shader filters and gesture transitions.
+2. **2D Pixel Art Desktop Pet Companion**: Interactive frameless desktop companion with 48 animated pixel-art frames, treat feeding, and Gemini AI chat.
+3. **Aethelgard: Living 2D Pixel Sanctuary**: Atmospheric HTML5 Canvas simulation with dynamic lighting cycles, particle systems, and ambient soundscapes.
+4. **Data Insights & SQL Analytics Engine**: Relational database management utility leveraging optimized SQL queries, joins, and aggregations with Python reporting.
 
 ## 🛠️ Tech Stack
-- **HTML5**: Semantic, accessible markup.
-- **CSS3**: Custom design tokens, Flexbox, Grid, keyframe animations, glassmorphism, responsive media queries.
-- **JavaScript (ES6+)**: Scroll triggers, mobile menu toggle, interactive clipboard API.
+- **Languages**: Python, SQL, JavaScript, HTML5, CSS3
+- **Libraries & Frameworks**: OpenCV, MediaPipe, NumPy, Gemini API
+- **Design & UI**: Pure CSS3 (Flexbox & Grid), Glassmorphism, Responsive Design, 2D Canvas
 
 ## 🚀 Getting Started Locally
 
@@ -46,9 +46,10 @@ To run this site locally:
 3. Select the repository **`jaskiratsingh255/Ravi-Portfolio`** and click **"Import"**.
 4. Leave all build settings as default (Framework Preset: *Other*, Root Directory: `./`).
 5. Click **"Deploy"**!
-Your portfolio will be live worldwide with a free `https://<your-project>.vercel.app` URL and automatic updates on every git push!
 
 ## 📬 Contact & Profiles
-- **Email**: [ravirajput7653@gmail.com](mailto:ravirajput7653@gmail.com)
-- **GitHub**: [ravirajput23323-wq](https://github.com/ravirajput23323-wq)
-- **LeetCode**: [LeetCode Account](https://leetcode.com/accounts/login/)
+- **Name**: Jaskirat Singh (B.Tech CSE)
+- **Email**: [jaskiratsingh06122006@gmail.com](mailto:jaskiratsingh06122006@gmail.com)
+- **Phone / WhatsApp**: [+91 8930686965](tel:+918930686965)
+- **LinkedIn**: [jaskirat-singh-22667b378](https://www.linkedin.com/in/jaskirat-singh-22667b378/)
+- **GitHub**: [jaskiratsingh255](https://github.com/jaskiratsingh255)
